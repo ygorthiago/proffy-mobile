@@ -1,16 +1,21 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
+  logo: {
+    width: '100%',
+    resizeMode: "center"
+  },
+
   container: {
     flex: 1,
-    backgroundColor: '#8257E5',
+    backgroundColor: '#2d6da1',
     justifyContent: 'center',
     padding: 40
   },
 
   banner: {
     width: '100%',
-    resizeMode: 'contain',
+    resizeMode: 'contain'
   },
 
   title: {
@@ -35,17 +40,21 @@ const styles = StyleSheet.create({
     height: 150,
     width: '48%',
     backgroundColor: '#333',
-    borderRadius: 8,
+    borderRadius: 16,
     padding: 24,
     justifyContent: 'space-between',
   },
 
   buttonPrimary: {
-    backgroundColor: '#9871F5'
+    backgroundColor: '#3584c4',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
   buttonSecondary: {
-    backgroundColor: '#04D361'
+    backgroundColor: '#02ad4f',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
   buttonText: {
@@ -56,7 +65,7 @@ const styles = StyleSheet.create({
 
   totalConnections: {
     fontFamily: 'Poppins_400Regular',
-    color: '#d4C2FF',
+    color: '#83b0d4',
     fontSize: 12,
     lineHeight: 20,
     maxWidth: 160,
